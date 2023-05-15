@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import Theme from './theme';
 
 export default function Control() {
   return (
@@ -20,9 +21,7 @@ export default function Control() {
           <i className="fas fa-envelope-open"></i>
         </Link>
       </div>
-      <div className="theme-btn">
-        <i className="fas fa-adjust"></i>
-      </div>
+      <Theme/>
     </>
   );
 }
