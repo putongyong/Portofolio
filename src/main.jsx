@@ -11,6 +11,8 @@ import About from "./routes/about";
 import Portofolio from "./routes/portofolio";
 import Blog from "./routes/blog";
 import Contact from "./routes/contact";
+import { ThemeProvider } from "./routes/ThemeContext";
+import Theme from "./routes/theme";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +42,11 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    {/* Wrap the RouterProvider and OtherComponent with the ThemeProvider */}
+    <ThemeProvider>
+      <RouterProvider router={router}>
+        <Theme />
+      </RouterProvider>
+    </ThemeProvider>
   </React.StrictMode>
 );
