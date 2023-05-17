@@ -11,7 +11,7 @@ export default function Theme() {
 
   return (
     <>
-      <div className={`theme-btn ${isLightMode ? 'light-mode' : ''}`} onClick={handleToggle}>
+      <div className={`theme-btn glow-on-hover ${isLightMode ? 'light-mode' : ''}`} onClick={handleToggle}>
         <i className="fas fa-adjust"></i>
       </div>
     </>

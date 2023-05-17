@@ -99,16 +99,8 @@ section {
 
 .active {
   display: block;
-  animation: appear 1s ease-in-out;
+  animation: fadeInAnimation ease 3s;
   transform: translateY(0) scaleY(1);
-}
-@keyframes appear {
-  0% {
-    transform: translateY(-100%) scaleY(0);
-  }
-  100% {
-    transform: translateY(0) scaleY(1);
-  }
 }
 
 .controls {
@@ -140,12 +132,52 @@ section {
   color: var(--color-grey-2);
   pointer-events: none;
 }
-.controls .active-btn {
+.controls .active {
   background-color: var(--color-secondary);
   transition: all 0.4s ease-in-out;
 }
-.controls .active-btn i {
+
+.controls .active i {
   color: var(--color-white);
+}
+
+.glow-on-hover {
+  position: relative;
+}
+
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 50%;
+  /*border-radius: 10px;*/
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+  border-radius: 50%;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }
 
 .theme-btn {
