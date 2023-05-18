@@ -8,12 +8,12 @@ export default function Root() {
             <div class="left-header">
                 <div class="h-shape"></div>
                 <div class="image">
-                    <img src="/img/hero.png" alt=""/>
+                    <img src="/img/yong.png" alt=""/>
                 </div>
             </div>
             <div class="right-header">
                 <h1 class="name">
-                    Hi, I'm <span>Solano Milan Diaz.</span>
+                    Hi, I'm <span>Yong XIE.</span>
                     A Web Developer.
                 </h1>
                 <p>
