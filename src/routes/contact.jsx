@@ -21,7 +21,7 @@ export default function Contact() {
                                     <i class="fas fa-map-marker-alt"></i>
                                     <span>Location</span>
                                 </div>
-                                <p>London, united Kingdom</p>
+                                <p>Paris, France</p>
                             </div>
                             <div class="contact-item">
                                 <div class="icon">
@@ -29,7 +29,7 @@ export default function Contact() {
                                     <span>Email</span>
                                 </div>
                                 <p>
-                                    <span>maclinzuniversal@gmail.com</span>
+                                    <span>xieyong0226@gmail.com</span>
                                 </p>
                             </div>
                             <div class="contact-item">
@@ -38,7 +38,7 @@ export default function Contact() {
                                     <span>Education</span>
                                 </div>
                                 <p>
-                                    <span>Sussex University, East Sussex</span>
+                                    <span>Sorbonne-Pantheon University, Paris</span>
                                 </p>
                             </div>
                             <div class="contact-item">
@@ -47,7 +47,7 @@ export default function Contact() {
                                     <span>Mobile Number</span>
                                 </div>
                                 <p>
-                                    <span>07522670617</span>
+                                    <span>(+33) 6 50 44 39 19</span>
                                 </p>
                             </div>
                             <div class="contact-item">
@@ -56,23 +56,23 @@ export default function Contact() {
                                     <span>Languages</span>
                                 </div>
                                 <p>
-                                    <span>Afrikaans, English, Spanish</span>
+                                    <span>French, English, Chinese</span>
                                 </p>
                             </div>
                         </div>
                         <div class="contact-icons">
                             <div class="contact-icon">
-                                <a href="www.facebook.com" target="_blank">
-                                    <i class="fab fa-facebook-f"></i>
+                                <a href="https://www.linkedin.com/in/yong-xie-65451a218/" target="_blank" className="glow-on-hover">
+                                    <i class="fab fa-linkedin-in"></i>
                                 </a>
-                                <a href="#" target="_blank">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="#" target="_blank">
+                                <a href="https://github.com/putongyong" target="_blank" className="glow-on-hover">
                                     <i class="fab fa-github"></i>
                                 </a>
-                                <a href="#" target="_blank">
-                                    <i class="fab fa-youtube"></i>
+                                <a href="https://twitter.com/Vry47gFx0slGJ85" target="_blank" className="glow-on-hover">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://www.facebook.com/profile.php?id=100006906286380" target="_blank" className="glow-on-hover">
+                                    <i class="fab fa-facebook-f"></i>
                                 </a>
                             </div>
                         </div>
