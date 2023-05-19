@@ -13,19 +13,16 @@ export default function Portofolio() {
             <div class="portfolios">
                 <div class="portfolio-item">
                     <div class="image">
-                        <img src="img/port1.jpg" alt=""/>
+                        <img src="/img/portfoliophoto.png" alt=""/>
                     </div>
                     <div class="hover-items">
-                        <h3>Project Source</h3>
+                        <h3>Portfolio</h3>
                         <div class="icons">
-                            <a href="#" class="icon">
+                            <a href="/" class="icon">
+                            <i class="fa-solid fa-house"></i>
+                            </a>
+                            <a href="https://github.com/putongyong/Portofolio" class="icon">
                                 <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
                             </a>
                         </div>
                     </div>
@@ -38,13 +35,10 @@ export default function Portofolio() {
                         <h3>Project Source</h3>
                         <div class="icons">
                             <a href="#" class="icon">
+                                <i class="fa-solid fa-house"></i>
+                            </a>
+                            <a href="#" class="icon">
                                 <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
                             </a>
                         </div>
                     </div>
@@ -57,13 +51,10 @@ export default function Portofolio() {
                         <h3>Project Source</h3>
                         <div class="icons">
                             <a href="#" class="icon">
+                                <i class="fa-solid fa-house"></i>
+                            </a>
+                            <a href="#" class="icon">
                                 <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
                             </a>
                         </div>
                     </div>
@@ -76,13 +67,10 @@ export default function Portofolio() {
                         <h3>Project Source</h3>
                         <div class="icons">
                             <a href="#" class="icon">
+                                <i class="fa-solid fa-house"></i>
+                            </a>
+                            <a href="#" class="icon">
                                 <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
                             </a>
                         </div>
                     </div>
@@ -95,13 +83,10 @@ export default function Portofolio() {
                         <h3>Project Source</h3>
                         <div class="icons">
                             <a href="#" class="icon">
+                                <i class="fa-solid fa-house"></i>
+                            </a>
+                            <a href="#" class="icon">
                                 <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
                             </a>
                         </div>
                     </div>
@@ -114,13 +99,10 @@ export default function Portofolio() {
                         <h3>Project Source</h3>
                         <div class="icons">
                             <a href="#" class="icon">
+                                <i class="fa-solid fa-house"></i>
+                            </a>
+                            <a href="#" class="icon">
                                 <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
                             </a>
                         </div>
                     </div>
@@ -133,13 +115,10 @@ export default function Portofolio() {
                         <h3>Project Source</h3>
                         <div class="icons">
                             <a href="#" class="icon">
+                                <i class="fa-solid fa-house"></i>
+                            </a>
+                            <a href="#" class="icon">
                                 <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
                             </a>
                         </div>
                     </div>
