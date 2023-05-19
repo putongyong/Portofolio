@@ -35,6 +35,31 @@
   --color-grey-6: #12181b;
 }
 
+button {
+  background-color: var(--color-primary);
+  height:40px;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+  border-radius: 30px;
+  color: inherit;
+  font-weight: 600;
+  position: relative;
+  border: 1px solid var(--color-secondary);
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  overflow: hidden;
+  padding: 0 2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:var(--color-secondary);
+  transition: 0.2s;
+}
+
 body {
   background-color: var(--color-primary);
   font-family: "Poppins", sans-serif;

@@ -1,4 +1,9 @@
 import Control from "./control";
+import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
 export default function Contact() {
     return (
@@ -78,21 +83,22 @@ export default function Contact() {
                         </div>
                     </div>
                     <div class="right-contact">
-                        <form action="" class="contact-form">
+                        <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                            <input type="hidden" name="access_key" value="57dae735-6efa-4508-9473-1ec4dc2ac128"/>
                             <div class="input-control i-c-2">
-                                <input type="text" required placeholder="YOUR NAME"/>
-                                <input type="email" required placeholder="YOUR EMAIL"/>
+                                <input type="text"  name="name" required placeholder="YOUR NAME"/>
+                                <input type="email" name="email" required placeholder="YOUR EMAIL"/>
                             </div>
                             <div class="input-control">
-                                <input type="text" required placeholder="ENTER SUBJECT"/>
+                                <input type="text"  name="subject" required placeholder="ENTER SUBJECT"/>
                             </div>
                             <div class="input-control">
-                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                                <textarea name="message" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
                             </div>
+                            <input type="hidden" name="redirect" value="https://web3forms.com/success"/>     
                             <div class="submit-btn">
-                                <a href="#" class="main-btn">
-                                    <span class="btn-text">Download CV</span>
-                                    <span class="btn-icon"><i class="fas fa-download"></i></span>
+                                <a class="main-btn">
+                                    <button type="submit">Submit</button>
                                 </a>
                             </div>
                         </form>
