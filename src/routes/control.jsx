@@ -14,9 +14,11 @@ export default function Control() {
         <NavLink to="/portofolio" className="control glow-on-hover" data-id="portofolio">
           <i className="fas fa-briefcase"></i>
         </NavLink>
+        {/*
         <NavLink to="/blog" className="control glow-on-hover" data-id="blog">
           <i className="far fa-newspaper"></i>
         </NavLink>
+        */}
         <NavLink to="/contact" className="control glow-on-hover" data-id="contact">
           <i className="fas fa-envelope-open"></i>
         </NavLink>

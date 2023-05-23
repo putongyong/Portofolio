@@ -11,17 +11,21 @@ export default function About() {
                 <div class="left-about">
                     <h4>Information About me</h4>
                     <p>
-                    Since 2022, I have completed courses on FreeCodeCamp and Coursera, which have allowed me to acquire skills in various areas of web development. Starting with front-end skills such as HTML, CSS, and JavaScript, I gradually explored libraries and frameworks such as Bootstrap, jQuery, and React. My interest in back-end development grew, and I became particularly fascinated with Python. This led me to learn Django, which I find to be a compelling framework for managing URLs, SQL databases, and security.
+                    Since 2022, I have completed courses on FreeCodeCamp and Coursera, which have allowed me to acquire skills in various areas of web development. Starting with front-end skills such as HTML, CSS, and JavaScript, I gradually explored libraries and frameworks such as Bootstrap, jQuery, and React. 
+                    </p>
+                    <p>
+                    My interest in back-end development grew, and I became particularly fascinated with Python. This led me to learn Django, which I find to be a compelling framework for managing URLs, SQL databases, and security.
                     My passion for React and Django has made them my primary technologies for web development.
                     </p>
                     <div class="btn-con">
-                        <a href="#" class="main-btn">
-                            <span class="btn-text">Download CV</span>
-                            <span class="btn-icon"><i class="fas fa-download"></i></span>
+                        <a href="https://github.com/putongyong" class="main-btn">
+                            <span class="btn-text">Github page</span>
+                            <span class="btn-icon"><i class="fab fa-github"></i></span>
                         </a>
                     </div>
                 </div>
-                <div class="right-about">
+{/*
+            <div class="right-about">
                     <div class="about-item">
                         <div class="abt-text">
                             <p class="large-text">650+</p>
@@ -46,20 +50,9 @@ export default function About() {
                             <p class="small-text">Customer <br /> reviews</p>
                         </div>
                     </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">650+</p>
-                            <p class="small-text">Projects <br /> Completed</p>
-                        </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">650+</p>
-                            <p class="small-text">Projects <br /> Completed</p>
-                        </div>
-                    </div>
                 </div>
-            </div>
+*/}
+                </div>
             <div class="about-stats">
                 <h4 class="stat-title">My Skills</h4>
                 <div class="progress-bars">
