@@ -176,7 +176,10 @@ export default function About() {
                     <p class="tl-duration">2023 - present</p>
                     <h5>Web Developer<span> - Freelancer & Open to work</span></h5>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
+                        - Working on personal and commercial projects
+                    </p>
+                    <p>
+                        - Learning algorithms on Leetcode
                     </p>
                 </div>
                 <div class="timeline-item">
@@ -186,7 +189,10 @@ export default function About() {
                     <p class="tl-duration">2019 - present</p>
                     <h5>Phd Candidat of Philosophy<span> - University Paris 1 Phantheon-Sorbonne, Paris, France</span></h5>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
+                        - Project organization skills
+                    </p>
+                    <p>
+                        - Critical thinking
                     </p>
                 </div>
                 <div class="timeline-item">
@@ -196,7 +202,10 @@ export default function About() {
                     <p class="tl-duration">2023</p>
                     <h5>Self-taught Developper<span> - Coursera</span></h5>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
+                        - Working on Django projects by creating websites
+                    </p>
+                    <p>
+                        - Converting skills from javascript to python
                     </p>
                 </div>
                 <div class="timeline-item">
@@ -206,7 +215,10 @@ export default function About() {
                     <p class="tl-duration">2017 - 2019</p>
                     <h5>Master of Philosophy<span> - University Paris 1 Phantheon-Sorbonne, Paris, France</span></h5>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
+                        - Sucessfully defend my thesis on early modern philosophy
+                    </p>
+                    <p>
+                        - Critical thinking
                     </p>
                 </div>
                 <div class="timeline-item">
@@ -216,7 +228,10 @@ export default function About() {
                     <p class="tl-duration">2022 - 2023</p>
                     <h5>Self-taught Developper<span> - FreeCodeCamp</span></h5>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
+                        - Frontend development
+                    </p>
+                    <p>
+                        - Database management skills
                     </p>
                 </div>
                 <div class="timeline-item">
@@ -226,7 +241,10 @@ export default function About() {
                     <p class="tl-duration">2013 - 2017</p>
                     <h5>Bachelor of Philosophy<span> - Fudan University, Shanghai, China</span></h5>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
+                        - Outstanding academic performance
+                    </p>
+                    <p>
+                        - International background
                     </p>
                 </div>
             </div>
