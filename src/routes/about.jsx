@@ -7,9 +7,10 @@ export default function About() {
         <div class="main-title">
                 <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
             </div>
+            <h4 class="stat-title">Information and Certificates</h4>
             <div class="about-container">
                 <div class="left-about">
-                    <h4>Information About me</h4>
+                    
                     <p>
                     Since 2022, I have completed courses on FreeCodeCamp and Coursera, which have allowed me to acquire skills in various areas of web development. Starting with front-end skills such as HTML, CSS, and JavaScript, I gradually explored libraries and frameworks such as Bootstrap, jQuery, and React. 
                     </p>
@@ -24,34 +25,49 @@ export default function About() {
                         </a>
                     </div>
                 </div>
-{/*
             <div class="right-about">
-                    <div class="about-item">
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/W7EWAW3FSTS2/"  class="about-item">
                         <div class="abt-text">
-                            <p class="large-text">650+</p>
-                            <p class="small-text">Projects <br /> Completed</p>
+                            <p class="large-text">Coursera</p>
+                            <p class="small-text">Django <br /> Specialization</p>
                         </div>
-                    </div>
-                    <div class="about-item">
+                    </a>
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/LDSPQV6L6CYD/"  class="about-item">
                         <div class="abt-text">
-                            <p class="large-text">10+</p>
-                            <p class="small-text">Years of <br /> experience</p>
+                            <p class="large-text">Coursera</p>
+                            <p class="small-text">Python <br /> Specialization</p>
                         </div>
-                    </div>
-                    <div class="about-item">
+                    </a>
+                    <a href="https://www.freecodecamp.org/certification/fcc72d490ec-9d38-409a-bc9e-0cdc686b3c3c/relational-database-v8/"  class="about-item">
                         <div class="abt-text">
-                            <p class="large-text">300+</p>
-                            <p class="small-text">Happy <br /> Clients</p>
+                            <p class="large-text">FreeCode</p>
+                            <p class="large-text">Camp</p>
+                            <p class="small-text">Relational <br /> Database</p>
                         </div>
-                    </div>
-                    <div class="about-item">
+                    </a>
+                    <a href="https://www.freecodecamp.org/certification/fcc72d490ec-9d38-409a-bc9e-0cdc686b3c3c/front-end-development-libraries/"  class="about-item">
                         <div class="abt-text">
-                            <p class="large-text">400+</p>
-                            <p class="small-text">Customer <br /> reviews</p>
+                            <p class="large-text">FreeCode</p>
+                            <p class="large-text">Camp</p>
+                            <p class="small-text">Frontend <br /> Libraries </p>
                         </div>
-                    </div>
+                    </a>
+                    <a href="https://www.freecodecamp.org/certification/fcc72d490ec-9d38-409a-bc9e-0cdc686b3c3c/javascript-algorithms-and-data-structures/"class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">FreeCode</p>
+                            <p class="large-text">Camp</p>
+                            <p class="small-text">Javascript </p>
+                        </div>
+                    </a>
+                    <a href="https://www.freecodecamp.org/certification/fcc72d490ec-9d38-409a-bc9e-0cdc686b3c3c/responsive-web-design/" class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">FreeCode</p>
+                            <p class="large-text">Camp</p>
+                            <p class="small-text">Responsive <br /> Web-Design</p>
+                        </div>
+                    </a>
                 </div>
-*/}
+
                 </div>
             <div class="about-stats">
                 <h4 class="stat-title">My Skills</h4>
@@ -118,8 +134,8 @@ export default function About() {
                     <div class="tl-icon">
                         <i class="fas fa-briefcase"></i>
                     </div>
-                    <p class="tl-duration">2010 - present</p>
-                    <h5>Web Developer<span> - Vircrosoft</span></h5>
+                    <p class="tl-duration">2023 - present</p>
+                    <h5>Web Developer<span> - Freelancer & Open to work</span></h5>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
                     </p>
@@ -128,8 +144,8 @@ export default function About() {
                     <div class="tl-icon">
                         <i class="fas fa-briefcase"></i>
                     </div>
-                    <p class="tl-duration">2008 - 2011</p>
-                    <h5>Software Engineer<span> - Boogle, Inc.</span></h5>
+                    <p class="tl-duration">2019 - present</p>
+                    <h5>Phd Candidat of Philosophy<span> - University Paris 1 Phantheon-Sorbonne, Paris, France</span></h5>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
                     </p>
@@ -138,8 +154,8 @@ export default function About() {
                     <div class="tl-icon">
                         <i class="fas fa-briefcase"></i>
                     </div>
-                    <p class="tl-duration">2016 - 2017</p>
-                    <h5>C++ Programmer<span> - Slime Tech</span></h5>
+                    <p class="tl-duration">2023</p>
+                    <h5>Self-taught Developper<span> - Coursera</span></h5>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
                     </p>
@@ -148,8 +164,8 @@ export default function About() {
                     <div class="tl-icon">
                         <i class="fas fa-briefcase"></i>
                     </div>
-                    <p class="tl-duration">2009 - 2013</p>
-                    <h5>Business Degree<span> - Sussex University</span></h5>
+                    <p class="tl-duration">2017 - 2019</p>
+                    <h5>Master of Philosophy<span> - University Paris 1 Phantheon-Sorbonne, Paris, France</span></h5>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
                     </p>
@@ -158,8 +174,8 @@ export default function About() {
                     <div class="tl-icon">
                         <i class="fas fa-briefcase"></i>
                     </div>
-                    <p class="tl-duration">2013 - 2016</p>
-                    <h5>Computer Science Degree<span> - Brookes University</span></h5>
+                    <p class="tl-duration">2022 - 2023</p>
+                    <h5>Self-taught Developper<span> - FreeCodeCamp</span></h5>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
                     </p>
@@ -168,8 +184,8 @@ export default function About() {
                     <div class="tl-icon">
                         <i class="fas fa-briefcase"></i>
                     </div>
-                    <p class="tl-duration">2017 - present</p>
-                    <h5>3d Animation<span> - Brighton University</span></h5>
+                    <p class="tl-duration">2013 - 2017</p>
+                    <h5>Bachelor of Philosophy<span> - Fudan University, Shanghai, China</span></h5>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
                     </p>

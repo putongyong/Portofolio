@@ -27,6 +27,7 @@ export default function Portofolio() {
                         </div>
                     </div>
                 </div>
+                {/*
                 <div class="portfolio-item">
                     <div class="image">
                         <img src="img/port2.jpg" alt=""/>
@@ -123,6 +124,7 @@ export default function Portofolio() {
                         </div>
                     </div>
                 </div>
+                */}
             </div>
         </section>
         <Control/>
