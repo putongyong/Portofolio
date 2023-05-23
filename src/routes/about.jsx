@@ -72,6 +72,8 @@ export default function About() {
             <div class="about-stats">
                 <h4 class="stat-title">My Skills</h4>
                 <div class="progress-bars">
+                    <h4 class="small-title">Frontend</h4>
+                    <h4 class="small-title">Backend</h4>
                     <div class="progress-bar">
                         <p class="prog-title">html5</p>
                         <div class="progress-con">
@@ -82,23 +84,51 @@ export default function About() {
                         </div>
                     </div>
                     <div class="progress-bar">
+                        <p class="prog-title">python</p>
+                        <div class="progress-con">
+                            <p class="prog-text">85%</p>
+                            <div class="progress">
+                                <span class="python"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
                         <p class="prog-title">css3</p>
                         <div class="progress-con">
-                            <p class="prog-text">95%</p>
+                            <p class="prog-text">85%</p>
                             <div class="progress">
                                 <span class="css"></span>
                             </div>
                         </div>
                     </div>
                     <div class="progress-bar">
-                        <p class="prog-title">javascript</p>
+                        <p class="prog-title">Django</p>
                         <div class="progress-con">
-                            <p class="prog-text">75%</p>
+                            <p class="prog-text">85%</p>
+                            <div class="progress">
+                                <span class="django"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Javascript</p>
+                        <div class="progress-con">
+                            <p class="prog-text">87%</p>
                             <div class="progress">
                                 <span class="js"></span>
                             </div>
                         </div>
                     </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">SQL</p>
+                        <div class="progress-con">
+                            <p class="prog-text">75%</p>
+                            <div class="progress">
+                                <span class="sql"></span>
+                            </div>
+                        </div>
+                    </div>
+                    
                     <div class="progress-bar">
                         <p class="prog-title">ReactJS</p>
                         <div class="progress-con">
@@ -109,20 +139,29 @@ export default function About() {
                         </div>
                     </div>
                     <div class="progress-bar">
-                        <p class="prog-title">NodeJS</p>
+                        <p class="prog-title">REST API</p>
                         <div class="progress-con">
-                            <p class="prog-text">87%</p>
+                            <p class="prog-text">75%</p>
                             <div class="progress">
-                                <span class="node"></span>
+                                <span class="api"></span>
                             </div>
                         </div>
                     </div>
                     <div class="progress-bar">
-                        <p class="prog-title">Python</p>
+                        <p class="prog-title">Bootstrap</p>
                         <div class="progress-con">
-                            <p class="prog-text">70%</p>
+                            <p class="prog-text">75%</p>
                             <div class="progress">
-                                <span class="python"></span>
+                                <span class="boostrap"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Git</p>
+                        <div class="progress-con">
+                            <p class="prog-text">75%</p>
+                            <div class="progress">
+                                <span class="git"></span>
                             </div>
                         </div>
                     </div>

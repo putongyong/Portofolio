@@ -364,7 +364,7 @@ section {
 .about-stats .progress-bars {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
+  grid-gap: 1rem 5rem;
 }
 .about-stats .progress-bars .progress-bar {
   display: flex;
@@ -400,20 +400,32 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
   width: 80%;
 }
+.about-stats .progress-bars .progress-bar .progress-con .progress .python {
+  width: 85%;
+}
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 95%;
+  width: 85%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .django {
+  width: 85%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
+  width: 87%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .sql {
   width: 75%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .react {
-  width: 60%;
+  width: 75%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .node {
-  width: 87%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .api {
+  width: 75%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .python {
-  width: 70%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .boostrap {
+  width: 75%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .git {
+  width: 75%;
 }
 
 .stat-title {
@@ -423,6 +435,7 @@ section {
   padding: 3.5rem 0;
   position: relative;
 }
+
 .stat-title::before {
   content: "";
   position: absolute;
@@ -432,6 +445,14 @@ section {
   height: 1px;
   background-color: var(--color-grey-5);
   transform: translateX(-50%);
+}
+
+.small-title {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  text-align: left;
+  padding: 2.5rem 0;
+  position: relative;
 }
 
 /*Timeline*/
