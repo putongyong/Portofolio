@@ -72,9 +72,9 @@ export default function About() {
             <div class="about-stats">
                 <h4 class="stat-title">My Skills</h4>
                 <div class="progress-bars">
-                    <h4 class="small-title">Frontend</h4>
-                    <h4 class="small-title">Backend</h4>
-                    <div class="progress-bar">
+                    <div>
+                        <h4 class="small-title">Frontend</h4>
+                        <div class="progress-bar">
                         <p class="prog-title">html5</p>
                         <div class="progress-con">
                             <p class="prog-text">80%</p>
@@ -82,86 +82,89 @@ export default function About() {
                                 <span class="html"></span>
                             </div>
                         </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">python</p>
-                        <div class="progress-con">
-                            <p class="prog-text">85%</p>
-                            <div class="progress">
-                                <span class="python"></span>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="prog-title">css3</p>
+                            <div class="progress-con">
+                                <p class="prog-text">85%</p>
+                                <div class="progress">
+                                    <span class="css"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="prog-title">Javascript</p>
+                            <div class="progress-con">
+                                <p class="prog-text">87%</p>
+                                <div class="progress">
+                                    <span class="js"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="prog-title">ReactJS</p>
+                            <div class="progress-con">
+                                <p class="prog-text">75%</p>
+                                <div class="progress">
+                                    <span class="react"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="prog-title">Bootstrap</p>
+                            <div class="progress-con">
+                                <p class="prog-text">75%</p>
+                                <div class="progress">
+                                    <span class="boostrap"></span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">css3</p>
-                        <div class="progress-con">
-                            <p class="prog-text">85%</p>
-                            <div class="progress">
-                                <span class="css"></span>
+                    <div>
+                        <h4 class="small-title">Backend</h4>
+                        <div class="progress-bar">
+                            <p class="prog-title">python</p>
+                            <div class="progress-con">
+                                <p class="prog-text">85%</p>
+                                <div class="progress">
+                                    <span class="python"></span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Django</p>
-                        <div class="progress-con">
-                            <p class="prog-text">85%</p>
-                            <div class="progress">
-                                <span class="django"></span>
+                        <div class="progress-bar">
+                            <p class="prog-title">Django</p>
+                            <div class="progress-con">
+                                <p class="prog-text">85%</p>
+                                <div class="progress">
+                                    <span class="django"></span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Javascript</p>
-                        <div class="progress-con">
-                            <p class="prog-text">87%</p>
-                            <div class="progress">
-                                <span class="js"></span>
+                        <div class="progress-bar">
+                            <p class="prog-title">SQL</p>
+                            <div class="progress-con">
+                                <p class="prog-text">75%</p>
+                                <div class="progress">
+                                    <span class="sql"></span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">SQL</p>
-                        <div class="progress-con">
-                            <p class="prog-text">75%</p>
-                            <div class="progress">
-                                <span class="sql"></span>
+                        <div class="progress-bar">
+                            <p class="prog-title">REST API</p>
+                            <div class="progress-con">
+                                <p class="prog-text">75%</p>
+                                <div class="progress">
+                                    <span class="api"></span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="progress-bar">
-                        <p class="prog-title">ReactJS</p>
-                        <div class="progress-con">
-                            <p class="prog-text">75%</p>
-                            <div class="progress">
-                                <span class="react"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">REST API</p>
-                        <div class="progress-con">
-                            <p class="prog-text">75%</p>
-                            <div class="progress">
-                                <span class="api"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Bootstrap</p>
-                        <div class="progress-con">
-                            <p class="prog-text">75%</p>
-                            <div class="progress">
-                                <span class="boostrap"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Git</p>
-                        <div class="progress-con">
-                            <p class="prog-text">75%</p>
-                            <div class="progress">
-                                <span class="git"></span>
+                        <div class="progress-bar">
+                            <p class="prog-title">Git</p>
+                            <div class="progress-con">
+                                <p class="prog-text">75%</p>
+                                <div class="progress">
+                                    <span class="git"></span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -169,83 +172,89 @@ export default function About() {
             </div>
             <h4 class="stat-title">My Timeline</h4>
             <div class="timeline">
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
+                <div>
+                    <div class="timeline-item">
+                        <div class="tl-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <p class="tl-duration">2023 - present</p>
+                        <h5>Web Developer<span> - Freelancer & Open to work</span></h5>
+                        <p>
+                            - Working on personal and commercial projects
+                        </p>
+                        <p>
+                            - Learning algorithms on Leetcode
+                        </p>
                     </div>
-                    <p class="tl-duration">2023 - present</p>
-                    <h5>Web Developer<span> - Freelancer & Open to work</span></h5>
-                    <p>
-                        - Working on personal and commercial projects
-                    </p>
-                    <p>
-                        - Learning algorithms on Leetcode
-                    </p>
+                    <div class="timeline-item">
+                        <div class="tl-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <p class="tl-duration">2023</p>
+                        <h5>Self-taught Developper<span> - Coursera</span></h5>
+                        <p>
+                            - Working on Django projects by creating websites
+                        </p>
+                        <p>
+                            - Converting skills from javascript to python
+                        </p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="tl-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <p class="tl-duration">2022 - 2023</p>
+                        <h5>Self-taught Developper<span> - FreeCodeCamp</span></h5>
+                        <p>
+                            - Frontend development
+                        </p>
+                        <p>
+                            - Database management skills
+                        </p>
+                    </div>
                 </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
+                    
+
+                <div>
+                    <div class="timeline-item">
+                        <div class="tl-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <p class="tl-duration">2019 - present</p>
+                        <h5>Phd Candidat of Philosophy<span> - University Paris 1 Phantheon-Sorbonne, Paris, France</span></h5>
+                        <p>
+                            - Project organization skills
+                        </p>
+                        <p>
+                            - Critical thinking
+                        </p>
                     </div>
-                    <p class="tl-duration">2019 - present</p>
-                    <h5>Phd Candidat of Philosophy<span> - University Paris 1 Phantheon-Sorbonne, Paris, France</span></h5>
-                    <p>
-                        - Project organization skills
-                    </p>
-                    <p>
-                        - Critical thinking
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
+                    <div class="timeline-item">
+                        <div class="tl-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <p class="tl-duration">2017 - 2019</p>
+                        <h5>Master of Philosophy<span> - University Paris 1 Phantheon-Sorbonne, Paris, France</span></h5>
+                        <p>
+                            - Sucessfully defend my thesis on early modern philosophy
+                        </p>
+                        <p>
+                            - Critical thinking
+                        </p>
                     </div>
-                    <p class="tl-duration">2023</p>
-                    <h5>Self-taught Developper<span> - Coursera</span></h5>
-                    <p>
-                        - Working on Django projects by creating websites
-                    </p>
-                    <p>
-                        - Converting skills from javascript to python
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
+                    <div class="timeline-item">
+                        <div class="tl-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <p class="tl-duration">2013 - 2017</p>
+                        <h5>Bachelor of Philosophy<span> - Fudan University, Shanghai, China</span></h5>
+                        <p>
+                            - Outstanding academic performance
+                        </p>
+                        <p>
+                            - International background
+                        </p>
                     </div>
-                    <p class="tl-duration">2017 - 2019</p>
-                    <h5>Master of Philosophy<span> - University Paris 1 Phantheon-Sorbonne, Paris, France</span></h5>
-                    <p>
-                        - Sucessfully defend my thesis on early modern philosophy
-                    </p>
-                    <p>
-                        - Critical thinking
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2022 - 2023</p>
-                    <h5>Self-taught Developper<span> - FreeCodeCamp</span></h5>
-                    <p>
-                        - Frontend development
-                    </p>
-                    <p>
-                        - Database management skills
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2013 - 2017</p>
-                    <h5>Bachelor of Philosophy<span> - Fudan University, Shanghai, China</span></h5>
-                    <p>
-                        - Outstanding academic performance
-                    </p>
-                    <p>
-                        - International background
-                    </p>
                 </div>
             </div>
         </section>
