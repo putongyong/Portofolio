@@ -853,6 +853,7 @@ section {
   }
   .controls .control {
     margin: 1rem 0.3rem;
+    border-radius: 50%;
   }
 
   .about-container {
