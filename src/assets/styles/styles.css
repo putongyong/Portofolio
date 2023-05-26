@@ -262,6 +262,7 @@ section {
   background-color: rgba(0, 0, 0, 0);
   /*background-color: var(--color-black);*/
   transition: all 0.4s ease-in-out;
+
 }
 .header-content .left-header .image img {
   width: 100%;
