@@ -168,6 +168,7 @@ section {
 
 .glow-on-hover {
   position: relative;
+  border-radius: 50%;
   /*overflow: hidden;*/
 }
 
