@@ -184,7 +184,7 @@ section {
   filter: blur(5px);
   width: calc(100% + 4px);
   height: calc(100% + 4px);
-  animation: glowing 4s linear infinite;
+  animation: glowing 8s linear infinite;
   opacity: 0;
   transition: opacity .3s ease-in-out;
   
@@ -201,7 +201,7 @@ section {
     background-position: 0 0;
   }
   50% {
-    background-position: 100% 0;
+    background-position: 200% 0;
   }
   100% {
     background-position: 0 0;
