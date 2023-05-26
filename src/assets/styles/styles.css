@@ -169,7 +169,7 @@ section {
 .glow-on-hover {
   position: relative;
   border-radius: 50%;
-  /*overflow: hidden;*/
+  /overflow: hidden;
 }
 
 .glow-on-hover:before {
