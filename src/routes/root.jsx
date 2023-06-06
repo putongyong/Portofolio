@@ -21,7 +21,7 @@ export default function Root() {
                 </p>
                 
                 <div class="btn-con">
-                    <a href="/cv/Yong_XIE_Resume_Django_React.pdf" class="main-btn">
+                    <a href="CVYongXIEDjangoReactFR&EN.pdf" class="main-btn">
                         <span class="btn-text">Download CV</span>
                         <span class="btn-icon"><i class="fas fa-download"></i></span>
                     </a>

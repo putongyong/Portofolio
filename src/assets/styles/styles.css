@@ -80,7 +80,7 @@ header {
   color: var(--color-white);
   overflow: hidden;
   padding: 0 !important;
-  animation: fadeInAnimation ease 3s;
+  animation: fadeInAnimation ease 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -101,7 +101,7 @@ section {
   left: 0;
   top: 0;
   padding: 10% 15%;
-  animation: fadeInAnimation ease 3s;
+  animation: fadeInAnimation ease 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
