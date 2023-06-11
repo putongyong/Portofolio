@@ -44,23 +44,21 @@ export default function Portofolio() {
                         </div>
                     </div>
                 </div>
-                {/*
+                
                 <div class="portfolio-item">
                     <div class="image">
-                        <img src="img/port3.jpg" alt=""/>
+                        <img src="img/port7.jpg" alt=""/>
                     </div>
                     <div class="hover-items">
-                        <h3>Project Source</h3>
+                        <h3>Django/Python Backend for CocktailRoom</h3>
                         <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fa-solid fa-house"></i>
-                            </a>
-                            <a href="#" class="icon">
+                            <a href="https://github.com/putongyong/backendforcocktailroom" class="icon">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>
                     </div>
                 </div>
+                {/*
                 <div class="portfolio-item">
                     <div class="image">
                         <img src="img/port4.jpg" alt=""/>
